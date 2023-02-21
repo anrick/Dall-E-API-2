@@ -9,7 +9,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [placeholder, setPlaceholder] = useState(
     "Search Bears with Paint Brushes the Starry Night, painted by Vincent Van Gogh..."
-  );
+  ); 
   const configuration = new Configuration({
     apiKey: import.meta.env.VITE_Open_AI_Key, 
   });
